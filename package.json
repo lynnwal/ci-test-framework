@@ -1,0 +1,20 @@
+{
+  "name": "ci-test-framework",
+  "version": "0.0.1",
+  "description": "test webapp client-side testing integration with jenkins",
+  "scripts": {
+    "test": "karma start karma.conf.js run exit"
+  },
+  "author": "Lynn Walker, lynnwal@cisco.com",
+  "devDependencies": {
+    "jasmine-jquery": "^1.3.3",
+    "jasmine-node": "^1.14.5",
+    "karma": "^0.12.21",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-jasmine": "^0.1.5",
+    "karma-osx-reporter": "^0.1.0",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-safari-launcher": "^0.1.1"
+  }
+}
